@@ -1,0 +1,179 @@
+body{
+    font-family: "Hiragino Kaku Gothic ProN";
+    position: relative;
+    background-color:rgb(243, 243, 243);
+}
+
+.liNO{
+    list-style: none;
+}
+
+.B600{
+    font-weight: 600;
+}
+
+.BBo{
+    border-bottom: 1.5px solid black;
+}
+
+.red{
+    color:red;
+}
+
+.red600{
+    color: red;
+    font-weight: 600;
+}
+
+.redBo{
+    border-bottom:1.5px solid red;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+header{
+    background-color: rgba(0, 170, 255, 0.8);
+    font-size: 30px;
+    color:black;
+    font-family:MS PGothic;
+    font-weight: 600;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    height: 50px;
+}
+
+
+
+.container div{
+    display: inline-block;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.header-center{
+    margin-left: 45%;
+}
+
+.paletteimg{
+    height: 50px;
+    width: 150px;
+    opacity: 0.8;
+    color: black;
+    line-height: 50px;
+    font-family: Arial Black;
+}
+
+.header-right{
+    float:right;
+
+}
+
+.twitter{
+    height: 50px;
+    width:50px;
+    margin-right:15px; 
+}
+
+.title{
+    margin-top: 60px;
+    margin-left: 10%;
+}
+
+.category{
+    float:left;
+    text-align:left;   
+}
+
+.title-name{
+    padding-top: 45px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.title-nameB{
+    display: none;
+}
+
+.main{
+    margin-left:10%;;
+    width: 55%;
+    background-color: white;
+    display: inline-block;
+}
+
+.introT p{
+    margin-left: 25px;
+}
+
+.contents-wrapper{
+    margin-left: 80px;
+    margin-right: 40px;
+}
+
+.contents-title{
+    padding:30px 0 0 60px ;
+    font-size: 20px;
+}
+
+.contents {
+    font-size: 20px;
+    background-color: #ffc38a;
+    height: 150px;
+    width: 300px;
+}
+
+.main-article{
+    margin-left: 80px;
+    margin-right: 40px;
+}
+
+.tHead p{
+    margin-top: 80px;
+    display: inline-block;
+    border-bottom:2px solid black;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.timg{
+    margin: 20px 0;
+}
+
+.bigimg{
+    margin: 25px auto;
+    display: block;
+    width: 70%;
+    height: auto;
+}
+
+.expimg{
+    display: block;
+    width: 45%;
+    height: auto;
+}
+
+.rightP{
+    display: inline-block;
+    margin-left: 50px;
+    padding-bottom: 30px;
+    width: 270px;
+    background-color: white;
+    position: absolute;
+
+}
+
+.TP p{
+    margin: 25px 10px;
+    padding: 15px 2px;
+    border:1px solid darkgrey;
+    text-align: center;
+}
+
+footer{
+    font-size: 15px;
+    text-align: center;
+}
